@@ -1,0 +1,30 @@
+{
+  "name": "video-file-loader",
+  "version": "0.0.1",
+  "description": "Simple Video Loader for Webpack",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "video-file.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mateus-pires/video-file-loader.git"
+  },
+  "author": "Mateus Pires",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ffprobe": "^1.1.2",
+    "ffprobe-static": "^3.1.0",
+    "loader-utils": "^3.2.0",
+    "schema-utils": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/webpack": "^5.28.0"
+  },
+  "peerDependencies": {
+    "@types/ffprobe": "^1.1.3"
+  }
+}
+
